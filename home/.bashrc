@@ -119,10 +119,6 @@ GIT_PS1_SHOWUNTRACKEDFILES=1
 GIT_PS1_SHOWUPSTREAM="auto"
 . ~/.git-prompt.sh
 
-export SCREENDIR=$HOME/.screen
-
-alias tb="nc termbin.com 9999"
-
 
 export NVM_DIR="/home/sullyjhf/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

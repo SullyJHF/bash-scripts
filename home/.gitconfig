@@ -1,0 +1,17 @@
+[user]
+	name = Sullivan Ford
+	email = sullyjhf@hotmail.co.uk
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	di = diff
+	spull = !git-svn fetch && git-svn rebase
+	spush = !git-svn dcommit
+[push]
+	default = simple
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = vim
+

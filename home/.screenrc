@@ -1,0 +1,5 @@
+startup_message off
+vbell off
+hardstatus alwayslastline
+hardstatus alwayslastline "%{=}%-w%{+b w}%n %t%{-b w}%+w %=%c"
+
